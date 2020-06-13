@@ -1,0 +1,127 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Adnan Khalid
+    tagline: Data Scientist
+    avatar: adnan.JPG  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: adnan@adnankhalid.com
+    phone: 917 293 5994
+    website: prettypositron.com #do not add http://
+    linkedin: akhalid16
+    github: prettypositron
+    gitlab:
+    bitbucket:
+    twitter: 
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Bengali
+        level: Fluent
+
+   
+
+    interests:
+      - item: Teaching
+        link: adnankhalid.com/teaching
+
+      - item: Web Design
+        link: prettypositron.github.io/ncl2/about/#_navigation
+
+      - item: Reading
+        link: 
+
+career-profile:
+    title: Career Profile
+    summary: |
+    
+      Former Scientific Researcher in Machine Learning looking to enter the private sector and finance world. Broad, interdisciplinary experience in research ranging from biomedical to cosmological. Interested primarily in the intersection of medicine, finance, and technology. 
+
+education:
+    - degree: BS in Biochemistry & Physics
+      university: New York University
+      time: 2006 - 2010
+      details: |
+       -Physics TA for Electricity & Magnetism I and Quantum Mechanics I
+       -NYU Cross-Examination Debate Team: won awards at 7 tournaments including Harvard, Yale, & Princeton
+
+
+
+experiences:
+
+    - role: Physical Cosmology Researcher
+      time: 2017 - 2018, 2019
+      company: Division of Observational Cosmology and Particle Physics, NYU
+      details: |
+        
+          - Detecting stars during the day turning tens of thousands of short-exposure digital photographs into one long exposure photograph, adjusting other parameters in post-processing. Writing software to find star in every exposure, shift all exposures to place star at the same location, and use median-combine (or other method) on the shifted exposures to make an extremely sensitive exposure
+          - Using Kepler as a thermometer: dark currents produce 9.5% of the noise on lightcurves on the Kepler spacecraft, which is far more precise in flux detection and SNR than the actual temperature readings of instruments on the spacecraft. The goal of the project is to be able to deduce temperature fluctuations of the CCD photoreceptors from analysis of noise on the lightcurves of tens of thousands of stars.
+          
+          - Constructing Bayesian hierarchical models of high-energy transient phenomena (black holes, neutron stars) through X-ray data analysis as well as stellar spectroscopy and exoplanet measurement and discovery using a Pythonic pipeline for time series analysis such as Fourier analysis and (quasi-)periodicity detection.
+          - Primarily investigated Boyajian’s Star (Tabetha’s Star), which is known for aperiodic dips in luminosity, by modeling these dips as eclipses or planet transits through my hypothesis centered around it being a brown dwarf
+          
+         
+    - role: Machine Learning Researcher
+      time: 2018 - 2019
+      company: Division of Behavioral Medicine, Columbia University Medical Center
+      details: |
+       
+
+          - Using machine learning within the context of neural circuits by creating generative adversarial networks as well as pre-trained convolutional neural networks to illuminate the neural circuit governing reinforcement learning under state uncertainty. 
+          - Rebuilt the lab’s website in full-stack: 99/100 Google PageSpeed Score, Syntax highlighting powered by Rouge, LaTeX math blocks, powered by KaTeX, built-in icons for social media, simple and semantic HTML, structured Data for core entities, Google Analytics and Google Fonts support, Disqus comments
+          - Built inexpensive supercomputer for extensive deep learning and data processing utilizing price trends
+
+
+projects:
+    title: Projects
+    intro: >
+
+    assignments:
+      - title: Image Recognition
+        tagline: "Built a convolutional neural network using a small dataset of time-series dopamine spikes among population ensembles of neurons by employing a pre-trained CNN through Tensorflow. Transformed dataset into heatmaps and wavelets, and wrote an algorithm with Python and OpenCV using distortion correction, image rectification, color transforms, and gradient thresholding. Enhanced this pipeline with Keras, using latest deep learning architecture (VGG16) that is extremely accurate and lean ; essential for our small dataset."
+
+      - title: Web Development, and Computer Building
+        tagline: "Re-built a laboratory’s website in full-stack and built an inexpensive deep learning computer for extensive deep learning and data processing."
+
+      - title: Self-Learned subjects through reading and online lectures 
+        tagline: "Relevant coursework includes: Probability, Statistics, Design of Algorithms, Linux, R, Bioinformatics, Windows PowerShell, Tensorflow and Keras, Cancer Genomics, Financial Analysis, Deep Learning: GANs and Variational Autoencoders, R Programming, Data visualization, Candlestick trading, Blockchain, Crypto"
+        
+
+   
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Python, Tensorflow, Keras
+        level: 90%
+
+      - name: Deep Learning
+        level: 85%
+
+      - name: MS Office Suite esp. Excel and Powerpoint
+        level: 98%
+
+      - name: HTML5 & CSS; Data visualization
+        level: 95%
+
+      - name: R, Linux, bioinformatics packages
+        level: 70%
+
+      - name: Probability and Statistics
+        level: 60%
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="prettypositron.com" target="_blank" rel="nofollow">Adnan  Khalid</a>
